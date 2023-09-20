@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import Chart from 'react-apexcharts';
 
-const stonksUrl = 'https://yahoo-finance-api.vercel.app/GME';
+const stonksUrl = 'https://yahoo-finance-api.vercel.app/SBIN.NS';
 async function getStonks() {
   const response = await fetch(stonksUrl);
   return response.json();
